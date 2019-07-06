@@ -1,0 +1,36 @@
+======  Versi 1.8 Krakatau - MOD  ======
++ DASHBOARD
+	- Show Kode Voucher
+	- Tanggal & Waktu Jadi Satu
+	- Hidden User ID
++ GOVOUCHER > USERLIST
+	- Added Tooltips Button Operation
+	- Added Clear History per User
+	- Added Reset History dan Total Voucher per User
++ SETTINGS > SETTING > Bot Settings
+	- Added Nama Bot = Sebutan nama bot nya (untuk sambutan saat pertama ketik /start)
++ HIDDEN MENU (fitur comingsoon only)
+	- GoCustomer
+	- SMS Gateway
+	- Report Voucher
+	- Chat Admin
+	- About Changelog
+
+#MikbotamTetapMantull
+
+<<<== CATATAN ==>>>
+
+GUNAKAN HOSTING DEMO/CADANGAN SEBELUM MENGGUNAKAN VERSI INI..
+BUATLAH BOT DAN DOMAIN BARU BUAT TESTER FITUR MOD INI
+SEGALA KERUSAKAN DAN ERROR BUKAN TANGGUNG JAWAB SAYA..
+JIKA TERJADI ERROR DAN BLABLABLA, ITU SALAH ANDA SENDIRI KARNA TIDAK BACA CATATAN INI DARI ATAS ^_^
+
+Thank to :
+- Grup MIKBOTAM OFFICIAL
+- Admin RIDWAN PRASETYA & OZIL REAL
+- Moderator MIKBOTAM
+- Member MIKBOTAM
+
+CP:
+- WA Only = 085798782878
+- TG Only = @jay_wifi & @Raffa_Hotspot
