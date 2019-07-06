@@ -5,7 +5,7 @@ RUN apk add --no-cache nginx curl supervisor php7 php7-fpm php7-pdo php7-pdo_sql
 
 COPY --chown=nginx:nginx . /public_html
 
-COPY /conf/nginx /etc/nginx/conf.d
+COPY /conf/nginx/mikbotam.conf /etc/nginx/conf.d/default.conf
 
 COPY /conf/supervisor /etc/supervisor.d
 
