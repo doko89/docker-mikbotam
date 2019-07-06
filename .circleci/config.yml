@@ -1,0 +1,22 @@
+version: 2
+jobs:
+  build:
+    working_directory: /app
+    docker:
+      - image: docker
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: login docker
+          command: echo $DOCKER_PASS| docker login -u $DOCKER_USER --password-stdin
+      - run:
+          name: build image
+          command: docker build -t $DOCKER_IMAGE:latest .
+      - run:
+          name: push image
+          command: docker push $DOCKER_IMAGE:latest
+    filtered:
+      branches:
+        only: 
+          master
