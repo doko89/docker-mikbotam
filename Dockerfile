@@ -1,6 +1,6 @@
 FROM alpine:3.9
 
-RUN apk add --no-cache nginx curl supervisor php7 php7-fpm php7-pdo php7-pdo_sqlite php7-curl php7-session && \
+RUN apk add --no-cache nginx curl supervisor sqlite php7 php7-fpm php7-pdo php7-pdo_sqlite php7-curl php7-session php7-xml php7-json && \
     sed -i 's/auto/1/g' /etc/nginx/nginx.conf && mkdir -p /run/nginx
 
 COPY --chown=nginx:nginx . /public_html
